@@ -1,0 +1,37 @@
+.container{
+    height: 40px;
+    width: 500px;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition: 1s;
+}
+
+.container:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+.container input{
+    border: none;
+    width: 415px;
+}
+
+.container input:focus{
+    outline: none;
+}
+
+.container button{
+    color: gray;
+    border: none;
+    background-color: white;
+
+    transition: 0.3s;
+}
+
+.container button:hover{
+    color: black;
+}

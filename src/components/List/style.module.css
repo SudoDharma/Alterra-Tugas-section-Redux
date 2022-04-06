@@ -1,0 +1,38 @@
+.container{
+    width: 500px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+}
+
+.container label{
+    transition: 0.3s;
+}
+.container label:hover{
+    opacity: 0.6;
+}
+
+.container input{
+    margin-right: 1rem;
+}
+
+.container button{
+    height: 50px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100%;
+
+    transition: 0.3s;
+}
+
+.container button:hover{
+    background-color: rgb(235, 235, 235);
+    color: gray;
+}
